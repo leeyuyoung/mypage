@@ -1,0 +1,35 @@
+h1{color: #bbbbdd;
+font-size: 20pt;
+font-weight: bold;
+font-family: 나눔고딕;}
+
+h2{color: grey;
+font-size: 12pt;
+font-weight: lighter ;
+font-family: 나눔고딕;}
+
+p{color: #cc0303;
+font-size: 19pt;
+font-weight: bold;
+font-family: cursive;}
+
+body{font-size: 14pts;
+	color: #747474;
+	margin: 0;
+	background-color: #f6f6f6;
+	font-family: 나눔고딕;}
+
+ul li {color: orange;
+font-size: 13pt;
+font-weight: bold;
+font-family: 나눔고딕;}
+
+.td1{color: green; font-weight:bolder;}
+.td2{color: blue;font-weight:bolder;}
+.td3{color: purple;font-weight:bolder;}
+.td4{color: pink;font-weight:bolder;}
+
+a:link {color: grey;text-decoration:none;}
+a:visited {color: grey;text-decoration:none;}
+a:hover {color: red;text-decoration:none;}
+a:active{color: blue;text-decoration:none;}

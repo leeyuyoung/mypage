@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>회원가입</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/han.css">
+</head>
+<body><br><br><br>
+<center>
+	<h1>회원가입</h1><br>
+	<hr size="1px" width="800px" color="#bbbbdd">
+	<h2>
+		<a href="../index.html">HOME</a> |
+		<a href="1p.html">ABOUT ME</a> |
+		<a href="2p.html">MY HOBBY</a> |
+		<a href="#">회원가입</a> |
+		<a href="4p.html">FAVORITE VIDEO</a>
+	</h2>
+	<hr size="1px" width="800px" color="#bbbbdd">
+
+
+	<img src="../img/3.jpeg" width="400" > <br><br>
+
+	<form method="get">
+		<table border="5px" width="600px" cellspacing="0">
+			<tr height="50px">
+				<td colspan="2" align="center" bgcolor="#bbbbdd">회원가입</td>
+			</tr>
+			<tr>
+				<td width="150px">
+				아이디	
+				</td>
+				<td>
+				<input type="text" name="id" value="영어&숫자" size="10" maxlength="10">
+				<input type="button" name="send" value="중복확인">
+				</td>
+			</tr>
+			<tr>
+				<td>비밀번호</td>
+				<td>
+				<input type="password" name="password" size="10" maxlength="10">
+		        확인
+				<input type="password" name="password2" size="10" maxlength="10">
+				</td>	
+			</tr>
+			<tr>
+				<td>가입경로</td>
+				<td>
+					<input type="radio" name="way" value="전단지"> 전단지
+					<input type="radio" name="way" value="인터넷"> 인터넷
+					<input type="radio" name="way" value="지인소개"> 지인소개
+				</td>
+			</tr>
+			<tr>
+				<td>전화번호</td>
+				<td>
+				<select name="phone">
+					
+					<option value="010">010</option>
+					<option value="011">011</option>
+					<option value="016">016</option>
+					<option value="019">019</option>
+					</select>
+
+					-<input type="text" name="mid" size="4" maxlength="4">
+					-<input type="text" name="last" size="4" maxlength="4">
+				
+				</td>
+			</tr>
+			<tr>
+				<td>주소</td>
+				<td>
+					<select name="add">
+					<option value="서울">서울</option>
+					<option value="부산">부산</option>
+					<option value="세종">세종</option>
+					</select>
+					-<input type="text" name="add2" size="20" maxlength="20">
+				</td>
+			</tr>
+			<tr>
+				<td>이메일</td>
+				<td>
+					<input type="email" name="email">
+				</td>
+			</tr>
+			<tr>
+				<td>생년월일</td>
+				<td><input type="datetime-local" name="datetime-local"></td>
+			</tr>
+			<tr>
+				<td>예약 가능 달</td>
+				<td><input type="month" name="month"></td>
+			</tr>
+			<tr>
+				<td>방문 가능 주</td>
+				<td><input type="week" name="week"></td>
+			</tr>
+			<tr>
+				<td>가입인사</td>
+				<td><textarea rows="5" cols="50"></textarea></td>
+			</tr>
+			<tr>
+				<td>리셋 및 제출</td>
+				<td>
+					<input type="reset" name="reset" value="리셋">
+					<input type="submit" name="submit" value="제출">
+				</td>
+			</tr>
+
+
+		</table>
+	</form>
+
+</center>
+
+<br><br>
+
+</body>
+</html>
